@@ -1,0 +1,59 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuição / empacotamento
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers e linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Variáveis de ambiente e segredos =====
+.env
+.env.*
+*.pem
+*.key
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+*.code-workspace
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Outros =====
+*.log
+*.sqlite3
+*.db
+.cache/
+tmp/
